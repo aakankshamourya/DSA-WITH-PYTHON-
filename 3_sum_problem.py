@@ -1,3 +1,4 @@
+#Brute force approach
 def threeSum(arr):
     s=set()
     n=len(arr)
@@ -10,9 +11,9 @@ def threeSum(arr):
     return list(s)
 print(threeSum([-1,0,1,2,-1,-4]))   
 
+####################################################################
 
-
-
+#Better approach
 
 def ThreeSum(arr):
     my_set=set()
