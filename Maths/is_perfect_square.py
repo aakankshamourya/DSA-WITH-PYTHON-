@@ -1,3 +1,6 @@
+#need to do again wrong logic
+
+
 def is_perct_sq(num):
     i=0
     while i*i<num:
